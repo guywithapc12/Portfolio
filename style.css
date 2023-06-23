@@ -4,7 +4,16 @@ border:solid;
 background-color:yellowgreen;
 color:white;
 position: relative;
-left: 400px;
+
+padding:100px;
+width:700px;
+}
+H1{
+    position:relative;
+    left:400px;
+    display:flex;
+    border:solid;
+    background-color:#c94935;
 }
 body{
     background-image:url("");
@@ -13,19 +22,30 @@ body{
     color:white;
     border-style:hidden;
     border-style:flex;
-    border-width:40px;
-    background-color:black;
-    width:120px;
+    background-color:yellowgreen;
     float:left;
-    height:800px;
     justify-content:center;
-    padding:10px
+    padding:10px;
+    border-width:200px;
+    width:800;
+    height:800px;
+    border-radius:10px;
+    position:fixed;
 }
 .but{
-    background-color: black;
+    background:#c94935;
     color:white;
     border-style:solid;
     border-color:white;
     border-radius:60px;
-    padding:6px
+    padding:6px;
+    position:flex;
+    text-align: center;
+    width:90px;
+    margin-top:50px;
+}
+.exp{
+    position:fixed;
+    bottom:0px;
+    display:flex
 }
