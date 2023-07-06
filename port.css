@@ -1,7 +1,7 @@
 .titlehead{
 display:flex;
 border:solid;
-background-color:yellowgreen;
+background-color:rgb(255, 166, 0);
 color:white;
 position: relative;
 border-radius: 0px 0px 60px 0px;
@@ -10,27 +10,27 @@ width:1000px;
 
 }
 #grad1{
-    background-image:linear-gradient(to top right, yellowgreen, black)
+    background-image:linear-gradient(to top right, rgb(255, 166, 0), black);
 }
-H1{
+    H1{
     position:relative;
-    left:400px;
+    left:200px;
     display:flex;
     border:solid;
     background-color:#c94935;
+    width:400px;
 }
 body{
-    background-image:linear-gradient(to bottom, rgb(84, 84, 84), rgb(109, 117, 151))
+    background-image:linear-gradient(to bottom, rgb(84, 84, 84), rgb(109, 117, 151));
 }
 .sidebar{
     color:white;
     border-style:hidden;
-    border-style:flex;
-    background-color:yellowgreen;
+    border-style:solid;
+    background-color:rgb(255, 166, 0);
     float:left;
     justify-content:center;
     padding:10px;
-    border-width:200px;
     width:800;
     height:600px;
     border-radius:0px 0px 20px 0px;
@@ -52,11 +52,41 @@ body{
 .exp{
     position:fixed;
     bottom:0px;
-    display:flex
+    display:flex;
 }
-.words{
+.int{
     border-style:block;
     text-align: center;
     padding-top:50px;
-    
+
+}
+.words{
+    border-style:flex;
+    text-align: center;
+    padding-top:50px;
+    font-size: x-large;
+    width: 90%;
+    color:#c94935;
+    text-decoration:double underline rgb(117, 117, 139);
+    font-weight:bold;
+    justify-content: center;
+}
+
+
+.exbtn{
+    background:#c94935;
+    color:white;
+    border-style:solid;
+    border-color:white;
+    border-radius:60px;
+    padding:6px;
+    position:flex;
+    text-align: center;
+    width:140px;
+    margin-top:50px;
+} 
+.exbtl{
+    display: flex;
+    margin-right:12%;
+    justify-content: center;
 }
