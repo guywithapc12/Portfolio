@@ -18,7 +18,8 @@ width:1000px;
     display:flex;
     border:solid;
     background-color:#c94935;
-    width:400px;
+    width:200px;
+    height:30px;
 }
 body{
     background-image:linear-gradient(to bottom, rgb(84, 84, 84), rgb(109, 117, 151));
@@ -66,12 +67,23 @@ body{
     padding-top:50px;
     font-size: x-large;
     width: 90%;
-    color:#c94935;
-    text-decoration:double underline rgb(117, 117, 139);
+    color:#fefefe;
+    text-decoration:double underline rgb(133, 43, 1);
     font-weight:bold;
     justify-content: center;
-}
+    background:#c94935;
+    border-color:#fefefe;
+    border-radius:20px;
+    height:auto;
+}  
 
+.image{
+    display:flex;
+    background-color: #c94935;
+    border-style: solid;
+    padding:20px;
+    border-radius:40px;
+}
 
 .exbtn{
     background:#c94935;
